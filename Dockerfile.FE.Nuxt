@@ -1,0 +1,39 @@
+# Use node 18 as build image
+FROM node:18.19-slim
+
+# Install necessary build tools
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    git \
+    procps \
+    && rm -rf /var/lib/apt/lists/*
+
+# Enable corepack and use pnpm
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files first for better caching
+COPY ./UI/package.json ./
+
+# Set npm registry and install dependencies
+RUN npm config set registry https://registry.npmjs.org/
+
+# Install dependencies with pnpm
+RUN pnpm i
+
+# Copy the rest of the application
+COPY ./UI .
+COPY .env .
+
+# Build the application
+RUN pnpm build
+
+# Expose port 3000
+ENV HOST=0.0.0.0
+ENV PORT=3000
+EXPOSE 3000
+
+# Start the application
+CMD ["node", ".output/server/index.mjs"]
